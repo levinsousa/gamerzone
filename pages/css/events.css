@@ -1,0 +1,86 @@
+.desc{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.desc h1{
+  margin: 0;
+  font-family: 'Bebas Neue';
+  font-weight: normal;
+  font-size: 72px;
+  color: #CDC500;
+}
+
+.desc p{
+  margin: 0 0 40px 0;
+  font-family: 'Abel';
+  font-weight: normal;
+  font-size: 36px;
+  color: #FFFFFF;
+}
+
+.content{
+  margin: 70px 0 0 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+
+.content .event-list{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.content .event-list h1{
+  margin: 0;
+  font-family: 'Bebas Neue';
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 58px;
+  text-align: center;
+  color: #222222;
+}
+
+.content .event-list p{
+  margin: 0;
+  font-family: 'Abel';
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 46px;
+  text-align: center;
+  color: #222222;
+}
+
+.content .event-list .event:nth-child(1){
+  margin-top: 30px;
+}
+
+.content .event-list .event{
+  width: 100%;
+  margin-top: 10px;
+  display: flex;
+  font-weight: bold;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.content .event-map{
+  width: 100%;
+}
+
+.content .event-map h1{
+  font-family: 'Abel';
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 46px;
+  text-align: center;
+  color: #222222;
+}

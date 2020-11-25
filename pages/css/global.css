@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.head{
+  background-color: #222222;
+  max-height: 100vh;
+  box-sizing: border-box;
+}
+
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 43px;
+}
+
+.title{
+  margin: 0;
+  font-size: 48px;
+  font-family: 'Audiowide', cursive;
+  color: #fff;
+}
+
+.buttons{
+  margin: 0;
+  font-size: 36px;
+  font-family: 'Abel', sans-serif;
+  display: flex;
+  align-items: center;
+}
+
+.buttons a{
+  text-decoration: none;
+  color: #fff;
+  transition: color .5s;
+}
+
+.buttons a:hover{
+  color: #CDC500;
+}
+
+.buttons a:nth-child(1){
+  margin-right: 27px;
+}
+
+.buttons a:nth-child(3){
+  margin-left: 27px;
+}
+
+.content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
